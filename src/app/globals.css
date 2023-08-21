@@ -2,4 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .mh100 {
+    @apply min-h-[100vh];
+  }
 
+  .sd-apper {
+    @apply items-start 
+    bg-white 
+    rounded-[0] 
+    flex-col 
+    h-full 
+    justify-start 
+    m-0 
+    opacity-100 
+    w-full 
+    max-w-full;
+  }
+
+  .p {
+    @apply pt-[180px]
+    px-[25px]
+    pb-40
+    z-[1];
+  }
+
+  .z-2 {
+    @apply z-[-2]
+    brightness-[0.4]
+    contrast-[1.3]
+    grayscale-[0.2];
+  }
+
+  .w920 {
+    @apply w-[920px];
+  }
+
+  .mb-17 {
+    @apply mb-[17px]
+    font-[1000]
+    text-[20px]
+    leading-[35px];
+  }
+}
