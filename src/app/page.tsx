@@ -1,58 +1,26 @@
 import Image from 'next/image'
+
+// レスポンシブデザイン pc lgで設定. lg:1024px
+
 import Link from 'next/link'
 export default function Home() {
   return (
     <main>
-      <div className="transition-none overflow-x-hidden">
-        <div className="flex h-auto mh100">
-          <div className="sd-apper">
+      <div className="overflow-x-hidden">
+        <div className="flex h-auto min-h-[100vh]">
+          <div className="w-full max-w-full">
 
             {/* mainvisual */}
 
-            <section className=" p items-center bg-transparent flex-none flex-col h-auto justify-start m-0 transform translate-x-0 translate-y-0 w-full max-w-full relative">
-              <div className="bg-mainvisual bg-center bg-cover rounded-inherit h-full absolute top-0 left-0 w-full transition-all z-2 filter "/>
-              <div className="items-start flex-none flex-col flex-nowrap justify-center m-0 p-0 max-w-full w920 flex relative z-0"></div>
-              <p className="mb-17 tracking-wider text-white flex-none h-auto opacity-100 px-0 text-left transform scale-100  transition  w-full max-w-full justify-start">
-                テクノロジーを通じて、<br/>節度を持った革新を生み出す。
-              </p>
-              <p className="leading-[1.5] text-white flex-none text-[14px] font-[400] h-auto m-0 p-0 text-left">
-                私たちは、ただ目新しいものを生み出すテックカンパニーではありません。<br/>節度を持ち、課題の本質を捉え、最適な形でのソリューションを生み出します。
-              </p>
-              {/* <div>
-                <Link href="/">
-                  <Image 
-                    src="/sasatech-logo.webp"
-                    alt="a"
-                    layout="responsive"
-                    width={600}
-                    height={156}
-                  />
-                </Link>
-                <div>
-                  <Link href="/">
-                    <p>トップ</p>
-                  </Link>
-                  <Link href="/">
-                    <p>私たちについて</p>
-                  </Link>
-                  <Link href="/">
-                    <p>事業内容</p>
-                  </Link>
-                  <Link href="/">
-                    <p>お知らせ</p>
-                  </Link>
-                  <Link href="/">
-                    <p>お問い合わせ</p>
-                  </Link>
-                </div>
-                <button>
-                  <div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                  </div>
-                </button>
-              </div> */}
+            <section className="items-center bg-transparent flex-none flex-col flex-nowrap h-auto justify-start m-0 pt-[180px] px-[25px] pb-40 lg:pt-[240px] lg:px-[180px] lg:pb-[180px] w-full z-[1] max-w-full relative before:content-[bg-mainvisual] before:bg-no-repeat before:brightness-[0.4] before:contrast-[1.3] before:grayscale-[0.2] before:bg-[50%] before:bg-cover before:h-full before:left-0 before:absolute before:top-0 before:w-full ">
+              <div className="items-start flex-none flex-col flex-nowrap justify-center m-0 p-0 max-w-full w-[920px] flex relative z-0">
+                <p className="mb-[17px] font-[1000] text-[20px] leading-[1.75] text-white flex-none lg:text-[28px] h-auto tracking-wider lg:tracking-[0.25em]  px-0 text-left w-full max-w-full justify-start ">
+                  テクノロジーを通じて、<br/>節度を持った革新を生み出す。
+                </p>
+                <p className=" text-white flex-none text-[14px] font-[400] h-auto leading-[1.5] m-0 p-0 text-left w-full max-w-full justify-start">
+                  私たちは、ただ目新しいものを生み出すテックカンパニーではありません。<br/>節度を持ち、課題の本質を捉え、最適な形でのソリューションを生み出します。
+                </p>
+              </div>
             </section>
 
             {/* news */}
