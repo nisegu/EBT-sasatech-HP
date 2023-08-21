@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main>
-      <div className="transition-none">
+      <div className="transition-none overflow-x-hidden">
         <div className="flex h-auto mh100">
           <div className="sd-apper">
 
@@ -118,9 +118,9 @@ export default function Home() {
 
             {/* business */}
 
-            <section className="mt-10 pt-20 px-8 pb-[60px] items-center bg-white flex-none flex-col flex-nowrap height-auto justify-center w-full z-[1] max-w-full flex relative">
-              <div className="flex flex-none justify-start overflow-x-visible overflow-y-visible align-start flex-col flex-now h-auto m-0 p-0 absolute top-0 w-full z-[-1] max-w-full">
-                <div className="flex flex-none m-0 absolute transform translate-x-[-12px] rotate-3 slew-x-3 scale-x-110 scale-y-100 bg-black rounded-[8px] h-[380px] w-full z-[5] max-w-full"></div>
+            <section className=" mt-10 pt-20 px-8 pb-[60px] items-center bg-white flex-none flex-col flex-nowrap height-auto justify-center w-full z-[1] max-w-full flex relative">
+              <div className=" flex flex-none justify-start overflow-x- align-start flex-col flex-now h-auto m-0 p-0 absolute top-0 w-full z-[-1] max-w-full">
+                <div className=" flex flex-none m-0 absolute transform translate-x-[-12px] translate-y-[0px] rotate-[4deg] skew-x-[4deg] skew-y-[0deg] scale-x-[1.1] scale-y-[1] bg-black rounded-[8px] h-[380px] w-full z-[5] max-w-full"></div>
               </div>
               <div className="mb-6 max-w-full items-start flex-none flex-col flex-nowrap justify-center p-0 w-[1280px] flex relative z-0">
                 <p className="text-white flex-none text-[12px] font-[400] h-auto leading-[1.5] mb-2 p-0 text-left w-auto max-w-full justify-start items-center flex flex-row overflow-visible verflow-anywhere break-words">
@@ -137,7 +137,7 @@ export default function Home() {
                     </p>
                   </Link>
                 </div>
-                <p className="text-white  flex flex-none text-[12px] font-[400] h-auto leading-[1.75] m-0 p-0 text-left w-full max-w-full justify-start items-center flex-row overflow-visible verflow-anywhere break-words">
+                <p className="text-white flex flex-none text-[12px] font-[400] h-auto leading-[1.75] m-0 p-0 text-left w-full max-w-full justify-start items-center flex-row overflow-visible verflow-anywhere break-words">
                   <br />
                 </p>
               </div>
