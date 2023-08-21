@@ -105,9 +105,9 @@ export default function Home() {
                       インターネットが普及しスマートフォンを多くの人が持つようになった現代において、課題解決とテクノロジーは密接な関係にあります。
                        <br/>Sasatechでは、プログラミングやデザイン、マーケティングなど、あらゆる側面で課題解決の道を模索します。
                     </p>
-                    <Link href="/" className="items-center bg-transparent rounded-0 flex-none flex-row flex-nowrap h-8 justify-center p-0 w-auto max-w-full relative z-0">
+                    <Link href="/" className="flex items-center bg-transparent rounded-0 flex-none flex-row flex-nowrap h-8 justify-center p-0 w-auto max-w-full relative z-0">
                       <div className="bg-green-600 flex-none h-[1px] mr-[10px] w-3 max-w-[calc(100%-10px)] items-center flex flex-col flex-nowrap relative z-0 "></div>
-                      <p className="left-[20px] bottom-[8px] text-green-600 flex-none text-[12px] font-[400] h-auto tracking-[0.1em] leading-[1] m-0 p-0 text-left w-auto max-w-full justify-start items-center flex flex-row overflow-visible verflow-anywhere break-words flex-nowrap relative z-0">
+                      <p className=" text-green-600 flex-none text-[12px] font-[400] h-auto tracking-[0.1em] leading-[1] m-0 p-0 text-left w-auto max-w-full justify-start items-center flex flex-row overflow-visible verflow-anywhere break-words flex-nowrap relative z-0">
                         もっと見る
                       </p>
                     </Link>
@@ -120,13 +120,13 @@ export default function Home() {
 
             <section className="mt-10 pt-20 px-8 pb-[60px] items-center bg-white flex-none flex-col flex-nowrap height-auto justify-center w-full z-[1] max-w-full flex relative">
               <div className="flex flex-none justify-start overflow-x-visible overflow-y-visible align-start flex-col flex-now h-auto m-0 p-0 absolute top-0 w-full z-[-1] max-w-full">
-                <div className="flex flex-none m-0 absolute transform translate-x-[-12px] rotate-[4] skew-x-[4] scale-x-[110] scale-y-[100] bg-black rounded-[8px] h-[380px] w-full z-[5] max-w-full"></div>
+                <div className="flex flex-none m-0 absolute transform translate-x-[-12px] rotate-3 slew-x-3 scale-x-110 scale-y-100 bg-black rounded-[8px] h-[380px] w-full z-[5] max-w-full"></div>
               </div>
-              <div className="mr-6 max-w-full items-start flex-none flex-col flex-nowrap justify-center p-0 w-[1280px] flex relative z-0">
+              <div className="mb-6 max-w-full items-start flex-none flex-col flex-nowrap justify-center p-0 w-[1280px] flex relative z-0">
                 <p className="text-white flex-none text-[12px] font-[400] h-auto leading-[1.5] mb-2 p-0 text-left w-auto max-w-full justify-start items-center flex flex-row overflow-visible verflow-anywhere break-words">
                   business
                 </p>
-                <div className="mb-8 max-w-full items-center flex-row flex-nowrap justify-center p-0 flex">
+                <div className="mb-6 max-w-full items-center flex-row flex-nowrap justify-center p-0 flex">
                   <p className="text-white flex-none text-[24px] font-[400] h-auto tracking-[0.1em] leading-[1.5] mr-6 p-0 text-left w-auto max-w-[calc(100%-24px)] justify-start items-center flex flex-row overflow-visible verflow-anywhere break-words">
                     事業内容
                   </p>
@@ -241,6 +241,7 @@ export default function Home() {
                 </Link>
               </div>
             </div>
+
           </div>
         </div>
       </div>
